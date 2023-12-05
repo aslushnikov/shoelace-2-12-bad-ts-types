@@ -7,8 +7,13 @@ npm i
 npx tsc
 ```
 
-Expected: no errors
-Actual:
+### Expected
+
+no Errors
+
+### Actual
+
+Lots of TS errors:
 
 ```
 node_modules/@shoelace-style/shoelace/dist/events/events.d.ts(1,43): error TS2834: Relative import paths need explicit file extensions in ECMAScript imports when '--moduleResolution' is 'node16' or 'nodenext'. Consider adding an extension to the import path.
