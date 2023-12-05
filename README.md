@@ -7,6 +7,11 @@ npm i
 npx tsc
 ```
 
+Important repro parts:
+
+* the `package.json` has `type: "module"`
+* the `tsconfig.json` has `module: "node16"`
+
 ### Expected
 
 no Errors
